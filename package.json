@@ -1,0 +1,20 @@
+{
+  "name": "info-441-lecture-exercises-4",
+  "version": "1.0.0",
+  "description": "## Part 1: Deploy a nodejs site to Heroku: https://devcenter.heroku.com/articles/getting-started-with-nodejs  (Links to an external site.) Download Heroku CLI Choose a project folder Make sure project folder is git repo Run “heroku create” Make sure your project has the following Start defined in package.json, e.g.,    \"scripts\": {     \"start\": \"node app.js\"   }, Your app listens to the port defined in an environment variable PORT const PORT = process.env.PORT || 3000; app.listen(PORT, () => {   console.log('Example app listening at http://localhost:PORT') }) Make sure everything committed with git Deploy app: “git push heroku main” Part 2 Get a copy of the express-starter project: https://github.com/info-441-au21/express-starter/ (Links to an external site.) and make a new API endpoint (it can just return text that shows you got the routing to work).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Danielsson/info-441-lecture-exercises-4.git"
+  },
+  "author": "John Danielsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-Danielsson/info-441-lecture-exercises-4/issues"
+  },
+  "homepage": "https://github.com/John-Danielsson/info-441-lecture-exercises-4#readme"
+}
